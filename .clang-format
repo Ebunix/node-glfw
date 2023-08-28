@@ -1,0 +1,34 @@
+BasedOnStyle: LLVM
+Language: Cpp
+IndentWidth: 2
+TabWidth: 2
+UseTab: Always
+AlwaysBreakBeforeMultilineStrings: true
+BitFieldColonSpacing: After
+IndentCaseLabels: true
+BreakBeforeBraces: Custom
+BraceWrapping:
+  SplitEmptyFunction: false
+  AfterClass: false
+  AfterEnum: false
+  AfterCaseLabel: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: false
+  BeforeWhile: true
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+IndentAccessModifiers: false
+IndentCaseLabels: true
+IndentExternBlock: Indent
+IndentGotoLabels: false
+IndentPPDirectives: None
+IndentWrappedFunctionNames: true
+InsertBraces: true
+NamespaceIndentation: All
+ColumnLimit: 0
